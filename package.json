@@ -1,0 +1,28 @@
+{
+  "name": "gympass-style-app",
+  "version": "1.0.0",
+  "description": "Gympass-style-app",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "lint": "eslint src --ext .ts --fix",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
+    "@types/node": "^22.13.9",
+    "eslint": "8.57.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "16.4.7",
+    "fastify": "^5.2.1",
+    "zod": "3.24.2"
+  }
+}
