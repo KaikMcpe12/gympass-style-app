@@ -6,14 +6,14 @@ Gympass-style-app
 
 - [x] Deve ser possível se cadastrar;
 - [x] Deve ser possível se autenticar; 
-- [ ] Deve ser possível obter o perfil de um usuário logado;
-- [ ] Deve ser possível obter o número de check-íns realizado pelo usuário logado;
-- [  ] Deve ser possível o usuário obter o histórico de check-íns;
+- [x] Deve ser possível obter o perfil de um usuário logado;
+- [x] Deve ser possível obter o número de check-íns realizado pelo usuário logado;
+- [x] Deve ser possível o usuário obter o histórico de check-íns;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-ín em uma academia;
 - [ ] Deve ser possível validade o check-ín de um usuário;
-- [ ] Deve ser possível cadastrar uma academia;
+- [x] Deve ser possível cadastrar uma academia;
 
 # RNs (regras de negócio)
 
@@ -28,5 +28,5 @@ Gympass-style-app
 
 - [x] A senha do usuário precisa estar criptografada;
 - [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
-- [ ] Todas as listas de dados precisam estar paginadas com 20 itens por página;
+- [x] Todas as listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (json web token);
